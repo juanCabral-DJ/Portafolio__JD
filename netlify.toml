@@ -1,3 +1,6 @@
 [build]
-  command = "gulp"  # Ejecuta el comando npm que invoca 'gulp build'
-  publish = "public"  # Establece la carpeta 'public' como la carpeta de publicación
+  command = "npm run build"
+  publish = "/" 
+
+[context.production.environment]
+  NODE_VERSION = "18"
