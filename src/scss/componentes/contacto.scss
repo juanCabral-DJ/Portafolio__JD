@@ -39,7 +39,7 @@
         display: flex;
         align-items: left; 
         flex-direction: row; 
-        @include v.telefono {
+        @include v.tablet {
             flex-direction: row;
             padding: 3rem;
             align-items: center;
@@ -48,7 +48,7 @@
         text-decoration: none;
         font-size: 0.5rem;
 
-        @include v.telefono {
+        @include v.tablet {
             font-size: 1rem;
         }
 

@@ -43,6 +43,9 @@
         margin: 1rem;
 
         @include v.telefono{
+            max-width: 13rem;
+        }
+        @include v.tablet{
            max-width: 30rem;  
         }
     }
