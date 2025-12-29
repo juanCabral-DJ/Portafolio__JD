@@ -6,7 +6,7 @@
     margin-top: 2rem;
     background: v.$gradient-fin;
 
-    @include v.tablet {
+    @include v.desktop {
         h1 {
             font-size: 3rem;
         }
