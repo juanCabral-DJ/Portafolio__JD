@@ -1,0 +1,17 @@
+{
+"short_name": "port-jd",
+"name": "Portafolio ninjadevs",
+"icons": [
+{
+"src": "src/logo.png",
+"size": "192x192",
+"type": "image/png"
+}
+],
+"start_url": "/index.html",
+"display":"standalone",
+"background_color": "#041975",
+"theme_color": "#041975",
+"orientation": "portrait",
+"cotegories": ["tecnologies", "business"]
+}
